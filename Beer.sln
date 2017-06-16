@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beer.iOS", "iOS\Beer.iOS.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beer.Droid", "Droid\Beer.Droid.csproj", "{15FF3DC7-1B1A-4E36-99CC-A21D8ACD59CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CE67DDB5-545A-4C72-BFA1-5DAB08D6A54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beer.UnitTest", "Beer.UnitTest\Beer.UnitTest.csproj", "{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -41,5 +45,20 @@ Global
 		{15FF3DC7-1B1A-4E36-99CC-A21D8ACD59CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15FF3DC7-1B1A-4E36-99CC-A21D8ACD59CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15FF3DC7-1B1A-4E36-99CC-A21D8ACD59CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Release|iPhone.Build.0 = Release|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6660031-D74F-47B9-9339-1B0AA8FBBEE7} = {CE67DDB5-545A-4C72-BFA1-5DAB08D6A54C}
 	EndGlobalSection
 EndGlobal

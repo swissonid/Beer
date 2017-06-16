@@ -25,7 +25,14 @@ namespace Beer
 
         public static void SetMainPage()
         {
-            if (!UseMockDataStore && !Settings.IsLoggedIn)
+            var loginPage = new LoginPage();
+            NavigationPage.SetHasNavigationBar(loginPage,false);
+            Current.MainPage = new NavigationPage(loginPage)
+            {
+				BarBackgroundColor = (Color)Current.Resources["Primary"],
+				BarTextColor = Color.White
+            };
+           /* if (!UseMockDataStore && !Settings.IsLoggedIn)
             {
                 Current.MainPage = new NavigationPage(new LoginPage())
                 {
@@ -36,7 +43,7 @@ namespace Beer
             else
             {
                 GoToMainPage();
-            }
+            }*/
         }
 
         public static void GoToMainPage()

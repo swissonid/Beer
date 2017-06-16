@@ -117,6 +117,7 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Resources\SplashScreenActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
@@ -133,6 +134,15 @@
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\beer_logo_shadow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\beer_logo_shadow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\beer_logo_shadow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\beer_logo_shadow.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\beer_logo_shadow.png" />
+    <AndroidResource Include="Resources\drawable\splash_screen.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\icon.png" />
   </ItemGroup>
   <Import Project="..\Beer\Beer.projitems" Label="Shared" Condition="Exists('..\Beer\Beer.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
